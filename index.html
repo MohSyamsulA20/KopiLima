@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KopiLima</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-color-primary text-color-white tracking-wider">
+    <header class="sticky top-0 z-50">
+        <nav class="container flex justify-between items-center">
+            <div class="py-5 text-color-secondary font-bold text-3xl">
+                <a href="#home">
+                    <span class="text-color-white">kopi</span>Lima.
+                </a>
+            </div>
+            <div>
+                <ul class="hidden lg:flex items-center space-x-6">
+                    <li><a href="#home" class="hover:text-color-secondary ease-in duration-200">Home</a></li>
+                    <li><a href="#features" class="hover:text-color-secondary ease-in duration-200">About</a></li>
+                    <li><a href="#testimonial" class="hover:text-color-secondary ease-in duration-200">Team</a></li>
+                    <li><a href="#footer" class="hover:text-color-secondary ease-in duration-200">Contact</a></li>
+
+                </ul>
+            </div>
+
+            <!-- Mobile screen  -->
+            <div id="hamburger" class="lg:hidden cursor-pointer z-50">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div id="menu" class="hidden bg-color-primary-dark h-[100vh] absolute inset-0">
+                <ul class="h-full grid place-items-center py-20">
+                    <li><a id="hLink" href="#home" class="hover:text-color-secondary ease-in duration-200">Home</a></li>
+                    <li><a id="hLink" href="#features" class="hover:text-color-secondary ease-in duration-200">About</a></li>
+                    <li><a id="hLink" href="#testimonial" class="hover:text-color-secondary ease-in duration-200">Team</a></li>
+                    <li><a id="hLink" href="#footer" class="hover:text-color-secondary ease-in duration-200">Contact</a></li>
+
+            
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="relative">
+
+            <div class="blob1"></div>
+
+            <div class="blob2"></div>
+
+            <div class="container py-20">
+                <div class="flex flex-col items-center z-20 md:flex-row">
+                    <div class="text-center mb-12 md:text-left md:w-1/2 md:pr-10">
+                        <h1 class="title mb-4">THE KOPI LIMA STORY</h1>
+                        <p class="leading-relaxed mb-10">"Enjoying quality coffee, with plenty of moments all at once."</p>
+                    </div>
+
+                    <div class="md:w-1/2">
+                        <img src="./img/hero4.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="bg-color-primary-light">
+            <div class="container py-20">
+                <div class="text-center m-auto mb-20 md:w-1/2">
+                    <h4 class="font-bold text-color-secondary mb-4">with plenty of moments all at once</h4>
+                    <h1 class="title">CURIOUS ABOUT KOPI LIMA? GET YOURS NOW! </h1>
+                </div>
+
+                <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-12 lg:gap-8 px-4 sm:px-6 lg:px-8">
+                    <!-- card no 1 -->
+                    <div class="border-2 border-solid border-color-gray text-center py-20 px-5 rounded-2xl cursor-pointer hover:bg-color-primary-dark ease-in duration-200">
+                        <div class="bg-color-secondary inline-block rounded-2xl py-5 px-6">
+                            <i class="fa-solid fa-map-signs text-4xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold py-4">minum kopi dengan menikmati alam</h3>
+                    </div>
+
+                    <!-- card no 2 -->
+                    <div class="bg-color-primary-dark border-2 border-solid border-color-gray text-center py-20 px-5 rounded-2xl cursor-pointer">
+                        <div class="bg-color-secondary inline-block rounded-2xl py-5 px-6">
+                            <i class="fa-solid fa-money-bill text-4xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold py-4">Harga Terjangkau</h3>
+                    </div>
+
+                   <!-- card no 3 -->
+                    <div class="border-2 border-solid border-color-gray text-center py-20 px-5 rounded-2xl cursor-pointer hover:bg-color-primary-dark ease-in duration-200">
+                        <div class="bg-color-secondary inline-block rounded-2xl py-5 px-6">
+                            <i class="fa-solid fa-location text-4xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold py-4">banyak pilihan menu</h3>
+                    </div> 
+                </div>
+            </div>
+        </section>
+
+        <section id="saving-money">
+            <div class="container py-20 relative">
+                <div class="blob1"></div>
+
+                <div class="blob2"></div>
+                
+                <div class="flex flex-col items-center justify-between md:flex-row">
+                    <div class="mb-12 md:w-1/2">
+                        <img src="./img/hero3.png" alt="">
+                    </div>
+
+                    <div class="text-center md:text-left md:w-1/2 md:ml-20">
+                        <h4 class="font-bold text-color-secondary mb-4">come drink coffee with us</h4>
+                        <h1 class="title mb-4">HIGH QUALITY COFFEE, MADE FROM PREMIUM INDONESIAN</h1>
+                        <p class="leading-relaxed mb-10">To brew a perfect cup of coffee, we choose only the best beans grown from all over Indonesia which includes Malang, Flores, Aceh, and other qualified areas in Indonesia.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonial">
+            <div class="container py-20">
+                <div class="text-center m-auto mb-20 md:w-1/2">
+                    <h4 class="font-bold text-color-secondary mb-4">MEET OUR TEAM</h4>
+                    <h1 class="title">Get to know the people you’ll be working with</h1>
+                </div>
+
+                <!-- review container  -->
+                <div class="mt-8">
+                    <div class="flex items-center justify-center flex-wrap">
+                        <img src="./img/user1.jpg" alt="" class="h-20 w-20 rounded-full p-1 m-3 cursor-pointer user-pic active-pic" onclick="showReview()">
+                        <img src="./img/user2.jpg" alt="" class="h-20 w-20 rounded-full p-1 m-3 cursor-pointer user-pic" onclick="showReview()">
+                        <img src="./img/user3.jpg" alt="" class="h-20 w-20 rounded-full p-1 m-3 cursor-pointer user-pic" onclick="showReview()">
+                        <img src="./img/user4.jpg" alt="" class="h-20 w-20 rounded-full p-1 m-3 cursor-pointer user-pic" onclick="showReview()">
+                        <img src="./img/user5.jpg" alt="" class="h-20 w-20 rounded-full p-1 m-3 cursor-pointer user-pic" onclick="showReview()">
+                    </div>
+
+                    <div class="grid place-items-center text-center m-auto md:w-4/5 min-h-[40vh]">
+                        <div class="user-text active-text">
+                            <p class="md:text-2xl mb-6">"Our team and our Management, try their best to provide good service to you. We have a strong passion for every product we offer and that can be seen from the services we provide. We really hope to meet your needs"!</p>
+                            <h4 class="font-bold text-color-secondary mb-1">Team Kopi Lima</h4>
+                            
+                        </div>
+
+                        <div class="user-text">
+                            <p class="md:text-2xl mb-6">"Our team and our Management, try their best to provide good service to you. We have a strong passion for every product we offer and that can be seen from the services we provide. We really hope to meet your needs"!</p>
+                            <h4 class="font-bold text-color-secondary mb-1">Team Kopi Lima</h4>
+                        </div>
+
+                        <div class="user-text">
+                            <p class="md:text-2xl mb-6">"Our team and our Management, try their best to provide good service to you. We have a strong passion for every product we offer and that can be seen from the services we provide. We really hope to meet your needs"!</p>
+                            <h4 class="font-bold text-color-secondary mb-1">Team Kopi Lima</h4>
+                        </div>
+
+                        <div class="user-text">
+                            <p class="md:text-2xl mb-6">"Our team and our Management, try their best to provide good service to you. We have a strong passion for every product we offer and that can be seen from the services we provide. We really hope to meet your needs"!</p>
+                            <h4 class="font-bold text-color-secondary mb-1">Team Kopi Lima</h4>
+                        </div>
+
+                        <div class="user-text">
+                            <p class="md:text-2xl mb-6">"Our team and our Management, try their best to provide good service to you. We have a strong passion for every product we offer and that can be seen from the services we provide. We really hope to meet your needs"!</p>
+                            <h4 class="font-bold text-color-secondary mb-1">Team Kopi Lima</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog">
+            <div class="container py-20">
+                <div class="text-center m-auto mb-20 md:w-1/2">
+                    <h4 class="font-bold text-color-secondary mb-4">STILL HAVE QUESTIONS? </h4>
+                    <h1 class="title">Don’t worry, we’re ready to help you.</h1>
+                </div>
+
+                    </div>
+        <section id="footer">
+            <div class="bg-color-primary-dark relative">
+                <div class="container py-10">
+                    <div class="grid gap-10 md:grid-cols-3 pb-10">
+                        <div class="space-y-6">
+                            <h4 class="font-bold text-lg">Contact Us</h4>
+                            <p class="leading-relaxed">yuk kepoin beberapa akun media sosial kami</p>
+                            <a class="flex gap-5 items-center">
+                                <p>Follow Us</p>
+
+                                <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fkopi_lima%3Ft%3DelFpd2DBNYQSpqw736pc3A%26s%3D09">
+                                    <i class="fa-brands fa-twitter cursor-pointer hover:text-color-secondary"></i></a>
+                                <a href="https://www.tiktok.com/@kopi.lima?_t=8du0QRWR4Zs&_r=1">
+                                    <i class="fa-brands fa-tiktok cursor-pointer hover:text-color-secondary"></i></a>
+                                <a href="https://www.instagram.com/kopi_limaa/?igshid=MzNlNGNkZWQ4Mg%3D%3D">
+                                    <i class="fa-brands fa-instagram cursor-pointer hover:text-color-secondary"></i></a>
+                            </div>
+                        </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="flex justify-center pt-10 border-t border-color-gray">
+                        <p>2023 &copy; Moh SyamSul</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script>
+
+        const navbar = document.querySelector('header');
+
+        window.onscroll = () => {
+            if(window.scrollY > 100) {
+                navbar.classList.add('bg-color-primary-dark');
+                navbar.classList.add('border-b');
+                navbar.classList.add('border-color-gray');
+            } else {
+                navbar.classList.remove('bg-color-primary-dark');
+                navbar.classList.remove('border-b');
+                navbar.classList.remove('border-color-gray');
+            }
+        }
+
+        // Mobile menu
+        const hamburger = document.querySelector('#hamburger');
+        const menu = document.querySelector('#menu');
+        const hLink = document.querySelectorAll('#hLink');
+        const faSolid = document.querySelector(".fa-solid");
+
+        hamburger.addEventListener("click", () => {
+            menu.classList.toggle('hidden');
+            faSolid.classList.toggle('fa-xmark');
+        })
+
+        hLink.forEach(link => {
+            link.addEventListener('click', () => {
+                menu.classList.toggle('hidden');
+                faSolid.classList.toggle('fa-xmark');
+            })
+        })
+
+        // testimonial
+        const userTexts = document.getElementsByClassName('user-text');
+        const userPics = document.getElementsByClassName('user-pic');
+
+        function showReview() {
+            for(userPic of userPics) {
+                userPic.classList.remove("active-pic");
+            }
+            for(userText of userTexts) {
+                userText.classList.remove("active-text");
+            }
+
+            let i = Array.from(userPics).indexOf(event.target);
+
+            userPics[i].classList.add('active-pic');
+            userTexts[i].classList.add('active-text');
+        }
+
+        const toggleBtn = document.getElementById('toggleBtn');
+
+        const card_1_front = document.querySelector("#card_1_front");
+        const card_1_back = document.querySelector("#card_1_back");
+
+        const card_2_front = document.querySelector("#card_2_front");
+        const card_2_back = document.querySelector("#card_2_back");
+
+        const card_3_front = document.querySelector("#card_3_front");
+        const card_3_back = document.querySelector("#card_3_back");
+
+        toggleBtn.addEventListener('change', () => {
+            card_1_front.classList.toggle('-rotate-y-180');
+            card_1_back.classList.toggle('rotate-y-180');
+
+            card_2_front.classList.toggle('-rotate-y-180');
+            card_2_back.classList.toggle('rotate-y-180');
+
+            card_3_front.classList.toggle('-rotate-y-180');
+            card_3_back.classList.toggle('rotate-y-180');
+            
+        })
+    </script>
+</body>
+</html>
